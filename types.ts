@@ -1,3 +1,4 @@
+
 export interface Refill {
   id: string;
   date: string;
@@ -34,6 +35,7 @@ export interface AnalysisResult {
   weatherSummary: string;
   recommendation: string;
   consumptionTrend: 'stable' | 'increasing' | 'decreasing';
+  sources?: { uri: string; title: string }[];
 }
 
 export enum AppStatus {
