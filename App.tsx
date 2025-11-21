@@ -1,8 +1,9 @@
+
 import React, { useState, useEffect } from 'react';
-import { Refill, TankConfig, AnalysisResult, AppStatus, DailyLog } from './types';
-import { analyzeConsumption } from './services/geminiService';
-import HistoryChart from './components/HistoryChart';
-import AnalysisPanel from './components/AnalysisPanel';
+import { Refill, TankConfig, AnalysisResult, AppStatus, DailyLog } from './types.ts';
+import { analyzeConsumption } from './services/geminiService.ts';
+import HistoryChart from './components/HistoryChart.tsx';
+import AnalysisPanel from './components/AnalysisPanel.tsx';
 import { Plus, Settings, Flame, Save, X, Thermometer, FileText, Gauge, Pencil, Trash2 } from 'lucide-react';
 
 const INITIAL_TANK_CONFIG: TankConfig = {

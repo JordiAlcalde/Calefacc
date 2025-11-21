@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { AnalysisResult, AppStatus, TankConfig } from '../types';
+import { AnalysisResult, AppStatus, TankConfig } from '../types.ts';
 import { TrendingUp, AlertTriangle, CloudSun, BellRing, Link as LinkIcon } from 'lucide-react';
 
 interface AnalysisPanelProps {

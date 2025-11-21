@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import {
   LineChart,
@@ -12,7 +13,7 @@ import {
   Bar,
   Scatter
 } from 'recharts';
-import { Refill, DailyLog } from '../types';
+import { Refill, DailyLog } from '../types.ts';
 
 interface HistoryChartProps {
   refills: Refill[];

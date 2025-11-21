@@ -1,6 +1,6 @@
 
 import { GoogleGenAI } from "@google/genai";
-import { Refill, TankConfig, AnalysisResult, DailyLog } from "../types";
+import { Refill, TankConfig, AnalysisResult, DailyLog } from "../types.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
